@@ -1,0 +1,45 @@
+/* This is CSS*/
+
+ body {
+    background-color: gainsboro;
+ }
+
+.icon {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    width: 250px;
+    height: 75px;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.main  title{
+    display: flexbox;
+}
+nav {
+    display: flex;
+    flex-direction:row-reverse;
+    border: 0px solid;
+    justify-content:space-between;
+    padding: 10px;
+}
+
+.nav-container {
+    display: flex;
+    
+}
+
+.nav-item {
+    background-color: #b0894d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+}
